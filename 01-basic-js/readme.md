@@ -34,8 +34,49 @@ task:-
        -VAR:- you can redeclare a VAR within the same scope without any iisues.
        -LET:- redeclaring a let variable in the same scope results  a SYNTAXERROR. 
        2. difference betwwen var and const.
-       3. what do you mean by hoisting.(when we don't declare value of variable but it execute the code)
+       In JavaScript, var and const are both used to declare variables, but they have significant differences in terms of scope, mutability, hoisting, and redeclaration. Here's a detailed comparison:
 
+SCOPE:-
+- VAR:- Function-scoped. A variable declared with var is accessible throughout the entire function in which it is declared.
+- CONST:- Block-scoped. A variable declared with const is accessible only within the block in which it is declared.
+
+MUTABILITY:-
+- VAR:- Mutable. You can reassign a new value to a variable declared with var.
+- CONST:- Immutable. You cannot reassign a new value to a variable declared with const. However, if the const variable is an object or an array, you can still modify the properties of the object or the elements of the array.
+
+HOISTING:-
+- VAR:- Variables declared with var are hoisted to the top of their scope and initialized with undefined. This means they are available throughout their entire scope but will have the value undefined until the actual line of code where they are assigned a value.
+- CONST:- Variables declared with const are also hoisted, but they are not initialized. This means they are not accessible before their declaration line, resulting in a ReferenceError if you try to access them before they are declared.
+
+REDECLARATION:-
+- VAR:-You can redeclare a var variable within the same scope without any issues.
+- CONST:- Redeclaring a const variable in the same scope results in a SyntaxError.
+
+SUMMERY:-
+- VAR:- is function-scoped, mutable, hoisted with initialization to undefined, and can be redeclared.
+- CONST:- is block-scoped, immutable (in terms of reassignment), hoisted without initialization, and cannot be redeclared.
+
+  3. what do you mean by hoisting.(when we don't declare value of variable but it execute the code)
+In JavaScript, *hoisting* refers to the behavior where variable and function declarations are moved to the top of their containing scope (either the global scope or the function scope) during the compilation phase before the code execution. This means that you can use variables and functions before they are formally declared in the code.
+
+VARIABLE HOISTING:-
+For variables declared with var, they are hoisted to the top of their scope and initialized with undefined. This means you can reference them before their actual declaration, but their value will be undefined until the line where they are assigned a value.
+
+
+FUNCTION HOISTING:-
+Function declarations are also hoisted to the top of their scope. This means you can call the function before it is declared in the code.
+
+
+LET AND CONST HOISTING :-
+Variables declared with let and const are also hoisted, but they are not initialized. This creates a "temporal dead zone" (TDZ) from the start of the block until the declaration is encountered. Accessing the variable in the TDZ results in a ReferenceError.
+
+
+### Summary
+- **var**: Declarations are hoisted and initialized to undefined.
+- **let** and **const**: Declarations are hoisted but not initialized, resulting in a temporal dead zone.
+- *Function Declarations*: Entire function declarations are hoisted.
+
+Hoisting is a fundamental aspect of JavaScript's behavior that affects how and where you can use variables and functions. Understanding hoisting helps avoid common pitfalls, such as accessing variables before their declaration or mistakenly thinking that let and const behave like var in terms of hoisting.
 
 
 
