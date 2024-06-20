@@ -24,7 +24,7 @@ in javascript we have 3 type of variables
 task:-  
        1. difference betwwen let and var 
        
-      1. SCOPE:-
+ 1. SCOPE:-
       - VAR:- function scoped,means that if we declare a variable with VAR inside a function ,then it can be accessible throughout the entire function.
        -LET:- block scoped means if we declare a variable with LET inside a block ,it is only accessible within that block.
        2.HOISTING:-
@@ -33,8 +33,8 @@ task:-
        3.REDECLARATION:-
        -VAR:- you can redeclare a VAR within the same scope without any iisues.
        -LET:- redeclaring a let variable in the same scope results  a SYNTAXERROR. 
-       2. difference betwwen var and const.
-       In JavaScript, var and const are both used to declare variables, but they have significant differences in terms of scope, mutability, hoisting, and redeclaration. Here's a detailed comparison:
+2. difference betwwen var and const.
+       
 
 SCOPE:-
 - VAR:- Function-scoped. A variable declared with var is accessible throughout the entire function in which it is declared.
@@ -71,9 +71,9 @@ LET AND CONST HOISTING :-
 Variables declared with let and const are also hoisted, but they are not initialized. This creates a "temporal dead zone" (TDZ) from the start of the block until the declaration is encountered. Accessing the variable in the TDZ results in a ReferenceError.
 
 
-### Summary
-- **var**: Declarations are hoisted and initialized to undefined.
-- **let** and **const**: Declarations are hoisted but not initialized, resulting in a temporal dead zone.
+SUMMERY:-
+- VAR:- Declarations are hoisted and initialized to undefined.
+- LET and CONST:- Declarations are hoisted but not initialized, resulting in a temporal dead zone.
 - *Function Declarations*: Entire function declarations are hoisted.
 
 Hoisting is a fundamental aspect of JavaScript's behavior that affects how and where you can use variables and functions. Understanding hoisting helps avoid common pitfalls, such as accessing variables before their declaration or mistakenly thinking that let and const behave like var in terms of hoisting.
