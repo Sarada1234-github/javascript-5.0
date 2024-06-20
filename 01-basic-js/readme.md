@@ -161,7 +161,8 @@ DATATYPES IN JAVASCRIPT :-
    - in the above example A & B are the operands ,'+' is the operators to do the addition.
    1. ARITHMATIC OPERATOR :-
    (+;-;*;/)
-   Modulous-> %xponention -> **
+   Modulous-> %
+   exponention -> **
    increment -> ++
    decrement -> --
-   e
+   
