@@ -163,6 +163,62 @@ DATATYPES IN JAVASCRIPT :-
    (+;-;*;/)
    Modulous-> %
    exponention -> **
+ 2. UNARY OPERATOR
    increment -> ++
    decrement -> --
-   
+ 3. ASSIGNMENT OPERATIOR :-(assign some value to the variable)
+   (=, +=, -=, *=, %=, **=)
+4. COMPARISION OPERATOR:- (compare values)
+- it gives the result true or false.
+equal to -> ==
+not equal to -> !=
+equal to & type  -> ===
+not equal to & type -> !==
+(>, >=, <, <=)
+
+5. logical operator:- checks the logic of the operator (true or false)
+logical AND&&
+table of AND operator is :-
+cond 1, cond2,res (&&)
+T + T =T
+T + F =F 
+F + T =F
+F + F =F
+LOGICAL OR ||
+table of or operator is :-
+cond1,cond2,res(||)
+T + T = T
+T + F = T
+F + T = T
+F + F = F
+ LOGICAL NOT!
+
+ conditional statement :-
+ - to implement some condition in the code
+ - there RE THREE TYPES OF CONDITONAL STATEMENTS
+ 1. if condition
+  - if condition is true then statement is true otherwise false
+  syntax:-
+  if(condition){
+   statement
+  }
+ 2. if -else condition
+  - if condition is true then block executed otherwise its terminate to else condition.
+  syntax:-
+  if(condition){
+   statement
+  }
+
+else{
+   statement
+}
+ 3. else-if condition :_
+ - its check the condition multiple times wherevcondition is true.
+ syntax:-
+ if(condition){
+   statement
+ } else if(condition){
+   statement
+ } else{
+   statement
+ }
