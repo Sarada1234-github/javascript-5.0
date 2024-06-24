@@ -222,3 +222,7 @@ else{
  } else{
    statement
  }
+ 
+
+ LOOPS IN JAVA SCRIPT :-
+ - 

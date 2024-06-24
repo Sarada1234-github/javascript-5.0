@@ -54,11 +54,10 @@
 
 // logical OR operator
 // let x = 2;
-//console.log((x < 4) || (4 >= x));
-//console.log((x > 4 || (2 ==4));
-
-
-
-
+//console.log((x < 4) || (4 >= x))
+//console.log((x > 4 )||  (2 ==4))
+//console.log((x > 4) || (x == 4))
 
 //logical not opareator
+//console.log(!true);
+//console.log(!( 2 < 3))
