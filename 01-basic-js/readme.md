@@ -247,3 +247,32 @@ for-in loop - -- iterate over objects(key-value pair) syntax - for(let key in ob
 home work*
  1.print all even number from 0 to 100
 2. crate a game you start with any random number. ask the user to keep guessing the game number untill the user enters correct value.
+
+string in JS :-
+- string is a sequence of charecters used to represent text.
+- create a sting -> let str = "web bocket"
+- string length -> str.length
+- string indexing -> str[0],str[1],str[2]....
+
+template literals in js :-
+- a way to have a embedded expression in string.
+- its denoted on ``. i.e `today is a great day`
+
+string intropolation :-
+- to create strings by doing substitution of  placeholders.
+- ex -> ` string text ${evpression} string text`
+
+
+escape symbol :-
+\n - new line
+\t - tab inside the text
+
+string methods -:
+- these are built in functions to compute a string.
+1. str.toUppercase()
+2. str.toLowercase()
+3. str.trim()
+4. str,slice(start, end)
+5. str1.concat(str2)
+6. str.replace(searchVal, newVal)
+7. str.chatAt(idx)
