@@ -225,4 +225,25 @@ else{
  
 
  LOOPS IN JAVA SCRIPT :-
- - 
+ 
+loops are used to execute a code again and again.
+For loop :- syntax - for (initialization,condition,updation){ statements }
+example ---
+
+for(let i = 1; i <= 5 ; i++>){ console.log("web bocket") }
+
+output -
+
+web bocket web bocket web bocket web bocket web bocket
+
+While loop :- syntax - while(condition) { statement updation }
+
+Do-while :- syntax- do{ statement updation } while (condition);
+
+For-of loop :- -- It iterate an string and array
+
+for-in loop - -- iterate over objects(key-value pair) syntax - for(let key in objvar){ statement }
+
+home work*
+ 1.print all even number from 0 to 100
+2. crate a game you start with any random number. ask the user to keep guessing the game number untill the user enters correct value.
