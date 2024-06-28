@@ -34,7 +34,7 @@ prathama = {
 address : "BBSR",
 age : 45,
 salary : "4500"
-CharacterData : "good" 
+
 
 }
 console.log(prathama)

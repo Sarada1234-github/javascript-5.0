@@ -28,10 +28,10 @@ let color;
 if(node === "dark"){
     color = "black";
 
-} elseif(node === "blue"){  
+} elseif(node === "blue")   
     color = "blue";
 
-} else if (node === "pink") {
+  if (node === "pink") {
     color = "pink";
 
 }

@@ -23,12 +23,22 @@
 //
 //}
 //q1. forv a given array with marks of students -> [ 85,97,44,37,76,60].find the average of the marks of the entire class.
-//let marks = [ 85,97,44,37,76,60];
+//let arr = [ 85,97,44,37,76,60];
 //sum = arr[0]+arr[1]+arr[2]+arr[3]+arr[4]+arr[5]
  //console.log(sum);
- //let avg = sum/marks.length;
+ //let avg = sum/arr.length;
  //console.log(avg);
  
  
  //q2.  for a given array with prices of 5 items ->[250,645,300,900,50].all items have an offer of 10% off on them.change the array to store final price after applying offer.
                                                                               
+//let items = [250,645,300,900,50];
+
+//let i = 0;
+//for(let val of items){
+    //console.log(`value at index ${i} = ${val}`);
+    //let offer = val / 10;
+    //items[i] = items[i] - offer;
+    //console.log(`value after offer = ${items[i]}`);
+    //i++
+//}
