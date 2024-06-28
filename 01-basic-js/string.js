@@ -58,6 +58,6 @@ l//et str = "web\nbocket";
 
 
 
-let str = "ILoveJS";
-console.log(str.charAt(2)); //o
-console.log(str.charAt(5)); //j
+//let str = "ILoveJS";
+//console.log(str.charAt(2)); //o
+//console.log(str.charAt(5)); //j
